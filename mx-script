@@ -1,0 +1,46 @@
+#!/bin/bash
+
+rm -f mx-servers
+
+while read line; do
+	dig +short mx $line | awk '{ print $2 }' >> mx-servers;
+done<domains
+
+sort mx-servers | uniq > final_mx-servers
+
+while read -r line; do
+	server=$line
+	IP=`dig +short $server`
+	maxtls=0
+
+	OLDIFS=$IFS;
+	IFS=':'
+	echo "Currently running for: $server"
+	certificates=$(/usr/bin/openssl s_client -connect $server:25  -starttls smtp -crlf -showcerts -tlsextdebug 2>&1 </dev/null | sed -n '/-----BEGIN/,/-----END/ {/-----BEGIN/ s/^/:/; p}');
+	for certificate in ${certificates#:}; do
+		echo $certificate | openssl x509 -noout -text | egrep 'Subject:'
+		echo $certificate | openssl x509 -noout -text | egrep -A2 'Validity';
+		echo $certificate | openssl x509 -noout -text | egrep -A1 'X509v3 Subject Alternative Name:';
+	done;
+	if [ "x${certificates[0]}" != "x" ];then 
+		echo "QUIT" | openssl s_client -connect $server:25 -starttls smtp -crlf -tls1_2 1>/dev/null 2>&1
+		if [ "$?" -eq 0 ]; then
+			maxtls="1.2"
+			echo "MAX TLS version supported by $server ($IP) = $maxtls"
+			continue
+		fi
+		echo "QUIT" | openssl s_client -connect $server:25 -starttls smtp -crlf -tls1_1 1>/dev/null 2>&1
+		if [ "$?" -eq 0 ]; then
+			maxtls="1.1"
+			echo "MAX TLS version supported by $server ($IP) = $maxtls"
+			continue
+		fi
+		echo "QUIT" | openssl s_client -connect $server:25 -starttls smtp -crlf -tls1 1>/dev/null 2>&1
+		if [ "$?" -eq 0 ]; then
+			maxtls="1.0"
+			echo "MAX TLS version supported by $server ($IP) = $maxtls"
+		fi
+	fi
+IFS=$OLDIFS
+
+done<final_mx-servers

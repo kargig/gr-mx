@@ -1,0 +1,212 @@
+Currently running for: amrsrv01.cosmote.gr.
+Currently running for: dcmail05.cyta.gr.
+Currently running for: dcmail06.cyta.gr.
+Currently running for: eml1.in.gr.
+Currently running for: eml2.in.gr.
+Currently running for: eml3.in.gr.
+Currently running for: eml4.in.gr.
+Currently running for: extahrmail1.cosmote.gr.
+Currently running for: extahrmail2.cosmote.gr.
+Currently running for: extahrmailb.cosmote.gr.
+Currently running for: extmarmail1.cosmote.gr.
+Currently running for: extmarmail2.cosmote.gr.
+Currently running for: kriton.ote.gr.
+        Subject: C=GR, ST=Attiki, L=Marousi, O=Hellenic Telecommunications Organization S.A., OU=Powered by Adacom, CN=kriton.ote.gr
+        Validity
+            Not Before: Mar  2 00:00:00 2015 GMT
+            Not After : Apr 30 23:59:59 2017 GMT
+            X509v3 Subject Alternative Name: 
+                DNS:kriton.ote.gr
+        Subject: C=US, O=GeoTrust Inc., CN=GeoTrust SSL CA - G3
+        Validity
+            Not Before: Nov  5 21:36:50 2013 GMT
+            Not After : May 20 21:36:50 2022 GMT
+            X509v3 Subject Alternative Name: 
+                DirName:/CN=SymantecPKI-1-539
+MAX TLS version supported by kriton.ote.gr. = 1.0
+Currently running for: mail1.dt-one.com.
+        Subject: ST=CA, L=CU, O=TREND, OU=IMSVA, CN=IMSVA.TREND
+        Validity
+            Not Before: Apr  2 09:29:00 2011 GMT
+            Not After : Apr  2 09:29:00 2031 GMT
+MAX TLS version supported by mail1.dt-one.com. = 1.2
+Currently running for: mail2.dt-one.com.
+        Subject: ST=CA, L=CU, O=TREND, OU=IMSVA, CN=IMSVA.TREND
+        Validity
+            Not Before: Apr  2 09:29:00 2011 GMT
+            Not After : Apr  2 09:29:00 2031 GMT
+MAX TLS version supported by mail2.dt-one.com. = 1.2
+Currently running for: mail3.dt-one.com.
+        Subject: ST=CA, L=CU, O=TREND, OU=IMSVA, CN=IMSVA.TREND
+        Validity
+            Not Before: Apr  2 09:29:00 2011 GMT
+            Not After : Apr  2 09:29:00 2031 GMT
+MAX TLS version supported by mail3.dt-one.com. = 1.2
+Currently running for: mail4.dt-one.com.
+        Subject: ST=CA, L=CU, O=TREND, OU=IMSVA, CN=IMSVA.TREND
+        Validity
+            Not Before: Apr  2 09:29:00 2011 GMT
+            Not After : Apr  2 09:29:00 2031 GMT
+MAX TLS version supported by mail4.dt-one.com. = 1.2
+Currently running for: mail5.dt-one.com.
+Currently running for: mail6.dt-one.com.
+Currently running for: mail7.dt-one.com.
+Currently running for: mail8.dt-one.com.
+Currently running for: mail.in.gr.
+Currently running for: mailrelay2.wind.gr.
+Currently running for: mail-relay.cyta.gr.
+Currently running for: mailrelay.wind.gr.
+Currently running for: mailsrv.forthnet.gr.
+Currently running for: mmrsrv01.cosmote.gr.
+Currently running for: mx0.grnet.gr.
+        Subject: OU=Domain Control Validated, CN=mx0.grnet.gr
+        Validity
+            Not Before: Oct 23 00:00:00 2014 GMT
+            Not After : Oct 22 23:59:59 2017 GMT
+            X509v3 Subject Alternative Name: 
+                DNS:mx0.grnet.gr
+        Subject: C=NL, ST=Noord-Holland, L=Amsterdam, O=TERENA, CN=TERENA SSL CA 2
+        Validity
+            Not Before: Oct  9 00:00:00 2014 GMT
+            Not After : Oct  8 23:59:59 2024 GMT
+        Subject: C=US, ST=New Jersey, L=Jersey City, O=The USERTRUST Network, CN=USERTrust RSA Certification Authority
+        Validity
+            Not Before: May 30 10:48:38 2000 GMT
+            Not After : May 30 10:48:38 2020 GMT
+MAX TLS version supported by mx0.grnet.gr. = 1.2
+Currently running for: mx1.mydomain.ro.
+Currently running for: mx1.windtools.gr.
+Currently running for: mx2.freemail.gr.
+Currently running for: mx2.mydomain.ro.
+Currently running for: mx2.otenet.gr.
+        Subject: C=GR, ST=ATTICA, L=MAROUSI, O=HELLENIC TELECOMMUNICATIONS ORGANIZATION S.A., OU=Internet Services, CN=mailgate.otenet.gr
+        Validity
+            Not Before: Apr 21 00:00:00 2015 GMT
+            Not After : Apr 21 23:59:59 2016 GMT
+            X509v3 Subject Alternative Name: 
+                DNS:mailgate.otenet.gr
+        Subject: C=US, O=Symantec Corporation, OU=Symantec Trust Network, CN=Symantec Class 3 Secure Server CA - G4
+        Validity
+            Not Before: Oct 31 00:00:00 2013 GMT
+            Not After : Oct 30 23:59:59 2023 GMT
+            X509v3 Subject Alternative Name: 
+                DirName:/CN=SymantecPKI-1-534
+        Subject: C=US, O=VeriSign, Inc., OU=VeriSign Trust Network, OU=(c) 2006 VeriSign, Inc. - For authorized use only, CN=VeriSign Class 3 Public Primary Certification Authority - G5
+        Validity
+            Not Before: Nov  8 00:00:00 2006 GMT
+            Not After : Nov  7 23:59:59 2021 GMT
+MAX TLS version supported by mx2.otenet.gr. = 1.0
+Currently running for: mx2.windtools.gr.
+        Subject: OU=Domain Control Validated, CN=mail.windtools.gr
+        Validity
+            Not Before: Jun  3 16:39:39 2015 GMT
+            Not After : Jun 27 18:50:02 2016 GMT
+            X509v3 Subject Alternative Name: 
+                DNS:mail.windtools.gr, DNS:www.mail.windtools.gr, DNS:smtp.windtools.gr, DNS:www.windtools.gr, DNS:new.windtools.gr, DNS:windtools.gr
+MAX TLS version supported by mx2.windtools.gr. = 1.0
+Currently running for: mx3.otenet.gr.
+        Subject: C=GR, ST=ATTICA, L=MAROUSI, O=HELLENIC TELECOMMUNICATIONS ORGANIZATION S.A., OU=Internet Services, CN=mailgate.otenet.gr
+        Validity
+            Not Before: Apr 21 00:00:00 2015 GMT
+            Not After : Apr 21 23:59:59 2016 GMT
+            X509v3 Subject Alternative Name: 
+                DNS:mailgate.otenet.gr
+        Subject: C=US, O=Symantec Corporation, OU=Symantec Trust Network, CN=Symantec Class 3 Secure Server CA - G4
+        Validity
+            Not Before: Oct 31 00:00:00 2013 GMT
+            Not After : Oct 30 23:59:59 2023 GMT
+            X509v3 Subject Alternative Name: 
+                DirName:/CN=SymantecPKI-1-534
+        Subject: C=US, O=VeriSign, Inc., OU=VeriSign Trust Network, OU=(c) 2006 VeriSign, Inc. - For authorized use only, CN=VeriSign Class 3 Public Primary Certification Authority - G5
+        Validity
+            Not Before: Nov  8 00:00:00 2006 GMT
+            Not After : Nov  7 23:59:59 2021 GMT
+MAX TLS version supported by mx3.otenet.gr. = 1.0
+Currently running for: mx4.otenet.gr.
+        Subject: C=GR, ST=ATTICA, L=MAROUSI, O=HELLENIC TELECOMMUNICATIONS ORGANIZATION S.A., OU=Internet Services, CN=mailgate.otenet.gr
+        Validity
+            Not Before: Apr 21 00:00:00 2015 GMT
+            Not After : Apr 21 23:59:59 2016 GMT
+            X509v3 Subject Alternative Name: 
+                DNS:mailgate.otenet.gr
+        Subject: C=US, O=Symantec Corporation, OU=Symantec Trust Network, CN=Symantec Class 3 Secure Server CA - G4
+        Validity
+            Not Before: Oct 31 00:00:00 2013 GMT
+            Not After : Oct 30 23:59:59 2023 GMT
+            X509v3 Subject Alternative Name: 
+                DirName:/CN=SymantecPKI-1-534
+        Subject: C=US, O=VeriSign, Inc., OU=VeriSign Trust Network, OU=(c) 2006 VeriSign, Inc. - For authorized use only, CN=VeriSign Class 3 Public Primary Certification Authority - G5
+        Validity
+            Not Before: Nov  8 00:00:00 2006 GMT
+            Not After : Nov  7 23:59:59 2021 GMT
+MAX TLS version supported by mx4.otenet.gr. = 1.0
+Currently running for: mx.otenet.gr.
+        Subject: C=GR, ST=ATTICA, L=MAROUSI, O=HELLENIC TELECOMMUNICATIONS ORGANIZATION S.A., OU=Internet Services, CN=mailgate.otenet.gr
+        Validity
+            Not Before: Apr 21 00:00:00 2015 GMT
+            Not After : Apr 21 23:59:59 2016 GMT
+            X509v3 Subject Alternative Name: 
+                DNS:mailgate.otenet.gr
+        Subject: C=US, O=Symantec Corporation, OU=Symantec Trust Network, CN=Symantec Class 3 Secure Server CA - G4
+        Validity
+            Not Before: Oct 31 00:00:00 2013 GMT
+            Not After : Oct 30 23:59:59 2023 GMT
+            X509v3 Subject Alternative Name: 
+                DirName:/CN=SymantecPKI-1-534
+        Subject: C=US, O=VeriSign, Inc., OU=VeriSign Trust Network, OU=(c) 2006 VeriSign, Inc. - For authorized use only, CN=VeriSign Class 3 Public Primary Certification Authority - G5
+        Validity
+            Not Before: Nov  8 00:00:00 2006 GMT
+            Not After : Nov  7 23:59:59 2021 GMT
+MAX TLS version supported by mx.otenet.gr. = 1.0
+Currently running for: platon.ote.gr.
+        Subject: C=GR, ST=Attiki, L=Marousi, O=Hellenic Telecommunications Organization S.A., OU=Powered by Adacom, CN=platon.ote.gr
+        Validity
+            Not Before: Mar  2 00:00:00 2015 GMT
+            Not After : Apr 30 23:59:59 2017 GMT
+            X509v3 Subject Alternative Name: 
+                DNS:platon.ote.gr
+        Subject: C=US, O=GeoTrust Inc., CN=GeoTrust SSL CA - G3
+        Validity
+            Not Before: Nov  5 21:36:50 2013 GMT
+            Not After : May 20 21:36:50 2022 GMT
+            X509v3 Subject Alternative Name: 
+                DirName:/CN=SymantecPKI-1-539
+MAX TLS version supported by platon.ote.gr. = 1.0
+Currently running for: promitheas1.cyta.gr.
+Currently running for: promitheas2.cyta.gr.
+Currently running for: protect1.mail.hol.gr.
+Currently running for: protect2.mail.hol.gr.
+Currently running for: protect3.mail.hol.gr.
+Currently running for: protect4.mail.hol.gr.
+Currently running for: pvextmailah01.cosmote.gr.
+Currently running for: pvextmaildr01.cosmote.gr.
+Currently running for: relay1.netnames.net.
+Currently running for: relay2.netnames.net.
+Currently running for: socrates.ote.gr.
+        Subject: C=GR, ST=Greece, L=Marousi, O=Hellenic Telecommunications Organization S.A., OU=Powered by Adacom, CN=socrates.ote.gr
+        Validity
+            Not Before: Mar  2 00:00:00 2015 GMT
+            Not After : Apr 30 23:59:59 2017 GMT
+            X509v3 Subject Alternative Name: 
+                DNS:socrates.ote.gr
+        Subject: C=US, O=GeoTrust Inc., CN=GeoTrust SSL CA - G3
+        Validity
+            Not Before: Nov  5 21:36:50 2013 GMT
+            Not After : May 20 21:36:50 2022 GMT
+            X509v3 Subject Alternative Name: 
+                DirName:/CN=SymantecPKI-1-539
+MAX TLS version supported by socrates.ote.gr. = 1.0
+Currently running for: solon.ote.gr.
+        Subject: C=GR, ST=Attiki, L=Marousi, O=Hellenic Telecommunications Organization S.A., OU=Powered by Adacom, CN=solon.ote.gr
+        Validity
+            Not Before: Mar  2 00:00:00 2015 GMT
+            Not After : Apr 30 23:59:59 2017 GMT
+            X509v3 Subject Alternative Name: 
+                DNS:solon.ote.gr
+        Subject: C=US, O=GeoTrust Inc., CN=GeoTrust SSL CA - G3
+        Validity
+            Not Before: Nov  5 21:36:50 2013 GMT
+            Not After : May 20 21:36:50 2022 GMT
+            X509v3 Subject Alternative Name: 
+                DirName:/CN=SymantecPKI-1-539
+MAX TLS version supported by solon.ote.gr. = 1.0
