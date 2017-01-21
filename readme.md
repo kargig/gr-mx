@@ -13,39 +13,39 @@ This is a repository of scripts and results to check Greek ISPs' mail servers TL
 
 Status according to the latest results file.
 
-| Commercial Provider | CA or Self Signed | Max TLS version  |
-|:--------------------|:-----------------:| ----------------:|
-| COSMOTE             | CA-signed         |              1.2 |
-| Wind                | CA-signed         |              1.2 |
-| Cyta                | CA-signed         |              1.2 |
-| Forthnet            | CA-signed         |              1.2 |
-| HOL                 | NO CERTIFICATE    |              N/A |
-| Vodafone            | CA-signed         |              1.2 |
+| Commercial Provider | CA or Self Signed | Max TLS version  | Supports SSLv3 |
+|:--------------------|:-----------------:| ----------------:|---------------:|
+| COSMOTE             | CA-signed         |          1.0/1.2 |         Yes/No |
+| Wind                | CA-signed         |          1.0/1.2 |         Yes/No |
+| Cyta                | CA-signed         |              1.2 |             No |
+| Forthnet            | CA-signed         |              1.2 |             No |
+| HOL                 | NO CERTIFICATE    |              N/A |            N/A |
+| Vodafone            | CA-signed         |              1.2 |             No |
 
-| Non-Commercial Provider | CA or Self Signed | Max TLS version  |
-|:------------------------|:-----------------:| ----------------:|
-| GRNET                   | CA-signed         |              1.2 |
-| SCH                     | NO CERTIFICATE    |              N/A |
-| TEE                     | CA-signed         |              1.2 |
-| MIL                     | Self-signed       |              1.2 |
+| Non-Commercial Provider | CA or Self Signed | Max TLS version  | Supports SSLv3 |
+|:------------------------|:-----------------:| ----------------:|---------------:|
+| GRNET                   | CA-signed         |              1.2 |             No |
+| SCH                     | NO CERTIFICATE    |              N/A |            N/A |
+| TEE                     | CA-signed         |              1.2 |         Yes/No |
+| MIL                     | Self-signed       |              1.2 |             No |
 
-| Universities | CA or Self Signed | Max TLS version  |
-|:-------------|:-----------------:| ----------------:|
-| AUTH         | CA-signed         |              1.2 |
-| NTUA         | CA-signed         |              1.2 |
-| UPATRAS      | CA-signed         |              1.0 |
+| Universities | CA or Self Signed | Max TLS version  | Supports SSLv3 |
+|:-------------|:-----------------:| ----------------:|---------------:|
+| AUTH         | CA-signed         |              1.2 |            Yes |
+| NTUA         | CA-signed         |              1.2 |            Yes |
+| UPATRAS      | CA-signed         |              1.0 |            Yes |
 
-| Free Providers | CA or Self Signed | Max TLS version  |
-|:---------------|:-----------------:| ----------------:|
-| IN             | NO CERTIFICATE    |              N/A |
-| FREEMAIL       | CA-signed         |              1.2 |
-| MAILBOX        | CA-signed         |              1.2 |
+| Free Providers | CA or Self Signed | Max TLS version  | Supports SSLv3 |
+|:---------------|:-----------------:| ----------------:|---------------:|
+| IN             | NO CERTIFICATE    |              N/A |            N/A |
+| FREEMAIL       | CA-signed         |              1.2 |             No |
+| MAILBOX        | CA-signed         |              1.2 |             No |
 
-| Radical Providers | CA or Self Signed | Max TLS version  |
-|:------------------|:-----------------:| ----------------:|
-| Espiv             | CA-signed         |              1.2 |
+| Radical Providers | CA or Self Signed | Max TLS version  | Supports SSLv3 |
+|:------------------|:-----------------:| ----------------:|---------------:|
+| Espiv             | CA-signed         |              1.2 |             No |
 
-For details regarding the certificates of each ISP read the blog posts.
+For details regarding the certificates and supported TLS versions of each provider read the blog posts.
 
 ## How to run the scripts on your own
 
