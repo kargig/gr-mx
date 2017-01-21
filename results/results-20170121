@@ -638,3 +638,22 @@ Currently running for: slashterix.tee.gr.
             Not After : May 21 04:00:00 2022 GMT
 MAX TLS version supported by slashterix.tee.gr. (212.70.192.206) = 1.2
 Currently running for: ulysses.noc.ntua.gr.
+        Subject: OU=Domain Control Validated, CN=smtp.ntua.gr
+        Validity
+            Not Before: Apr  9 00:00:00 2014 GMT
+            Not After : Apr  8 23:59:59 2017 GMT
+            X509v3 Subject Alternative Name: 
+                DNS:smtp.ntua.gr
+        Subject: C=NL, O=TERENA, CN=TERENA SSL CA
+        Validity
+            Not Before: May 18 00:00:00 2009 GMT
+            Not After : May 30 10:48:38 2020 GMT
+        Subject: C=US, ST=UT, L=Salt Lake City, O=The USERTRUST Network, OU=http://www.usertrust.com, CN=UTN-USERFirst-Hardware
+        Validity
+            Not Before: Jun  7 08:09:10 2005 GMT
+            Not After : May 30 10:48:38 2020 GMT
+        Subject: C=SE, O=AddTrust AB, OU=AddTrust External TTP Network, CN=AddTrust External CA Root
+        Validity
+            Not Before: May 30 10:48:38 2000 GMT
+            Not After : May 30 10:48:38 2020 GMT
+MAX TLS version supported by ulysses.noc.ntua.gr. (147.102.222.230) = 1.2
